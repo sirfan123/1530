@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T21:06:30.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="VyB-U_e3QPC0mIPKJ2Lp" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T21:08:20.338Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="wkAOFOrMvj0Eca42Jv0s" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="998" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1440" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -138,6 +138,9 @@
         </mxCell>
         <mxCell id="Jk_ImNpDdPHxiED2Sjry-2" value="Design Goals:&lt;br&gt;Design Goal 1: Responsiveness: The system should store user data within 10 seconds upon input &lt;br&gt;Design Goal 2: Consistency: The system uptime is as close to 99% as possible &lt;br&gt;Design Goal 3: Data Validation: The system verifies 99% of hotspots correctly &lt;br&gt;Design Goal 4: Usability: New users should be able to quickly adapt to using the app without the need for a manual &lt;br&gt;Design Goal 5: Compatibility: User should be able to use app on IOS and android with no issues&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="650" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Jk_ImNpDdPHxiED2Sjry-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF00FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="390" width="210" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
