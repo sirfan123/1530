@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T22:56:09.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="ui-lAoPssanCZmRRUG4P" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T23:43:08.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="Zc6-qHMVL7AkxHH4l0Fk" version="22.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2240" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3275" dy="2803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -491,6 +491,18 @@
         </mxCell>
         <mxCell id="_iBIzwe4cGZ4-WOvdbni-309" value="Access Matrix for Notification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="778" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-310" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-740" y="-1120" width="480" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-311" value="Student" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-310">
+          <mxGeometry y="20" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-312" value="Advisor" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-310">
+          <mxGeometry y="140" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-313" value="Appointment" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-310">
+          <mxGeometry y="260" width="480" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
