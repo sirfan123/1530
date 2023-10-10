@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T00:00:08.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="ke7r8LQKif5Zrt9uOLwH" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T00:10:55.597Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="nEGP-smr33fcePoGEMAH" version="22.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1847" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -496,19 +496,43 @@
           <mxGeometry y="20" width="780" height="260" as="geometry" />
         </mxCell>
         <mxCell id="_iBIzwe4cGZ4-WOvdbni-315" value="Request Appointment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-311">
-          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_iBIzwe4cGZ4-WOvdbni-320" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-311">
-          <mxGeometry x="60" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_iBIzwe4cGZ4-WOvdbni-318" value="" style="endArrow=open;html=1;rounded=0;endFill=0;" edge="1" parent="_iBIzwe4cGZ4-WOvdbni-311" source="_iBIzwe4cGZ4-WOvdbni-320" target="_iBIzwe4cGZ4-WOvdbni-315">
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-318" value="" style="endArrow=open;html=1;rounded=0;endFill=0;" edge="1" parent="_iBIzwe4cGZ4-WOvdbni-311" source="_iBIzwe4cGZ4-WOvdbni-320">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="340" as="sourcePoint" />
-            <mxPoint x="230" y="60" as="targetPoint" />
+            <mxPoint x="120" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_iBIzwe4cGZ4-WOvdbni-329" value="View Notification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-311">
-          <mxGeometry x="220" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-332" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-311">
+          <mxGeometry x="100" y="100" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-333" value="[User calls requestAppointment()]" style="endArrow=open;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="_iBIzwe4cGZ4-WOvdbni-311" source="_iBIzwe4cGZ4-WOvdbni-332" target="_iBIzwe4cGZ4-WOvdbni-315">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="100" as="sourcePoint" />
+            <mxPoint x="270" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-334" value="" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="_iBIzwe4cGZ4-WOvdbni-311" source="_iBIzwe4cGZ4-WOvdbni-332" target="_iBIzwe4cGZ4-WOvdbni-329">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="110" as="sourcePoint" />
+            <mxPoint x="270" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="120" />
+              <mxPoint x="270" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-335" value="notificationID == advisorID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_iBIzwe4cGZ4-WOvdbni-334">
+          <mxGeometry x="-0.3145" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_iBIzwe4cGZ4-WOvdbni-312" value="Advisor" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-310">
           <mxGeometry y="280" width="780" height="120" as="geometry" />
@@ -528,9 +552,9 @@
         <mxCell id="_iBIzwe4cGZ4-WOvdbni-328" value="Notification" style="whiteSpace=wrap;html=1;" vertex="1" parent="_iBIzwe4cGZ4-WOvdbni-313">
           <mxGeometry x="510" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_iBIzwe4cGZ4-WOvdbni-322" value="" style="endArrow=open;html=1;rounded=0;endFill=0;" edge="1" parent="_iBIzwe4cGZ4-WOvdbni-310" target="_iBIzwe4cGZ4-WOvdbni-321">
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-322" value="" style="endArrow=open;html=1;rounded=0;endFill=0;" edge="1" parent="_iBIzwe4cGZ4-WOvdbni-310" source="_iBIzwe4cGZ4-WOvdbni-315" target="_iBIzwe4cGZ4-WOvdbni-321">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="120" y="250" as="sourcePoint" />
             <mxPoint x="240" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -549,19 +573,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_iBIzwe4cGZ4-WOvdbni-314" value="" style="endArrow=open;html=1;rounded=0;startArrow=oval;startFill=1;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-314" value="" style="endArrow=open;html=1;rounded=0;startArrow=oval;startFill=1;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="_iBIzwe4cGZ4-WOvdbni-320">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-710" y="-1040" as="sourcePoint" />
+            <mxPoint x="-710" y="-1050" as="sourcePoint" />
             <mxPoint x="-680" y="-1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_iBIzwe4cGZ4-WOvdbni-325" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_iBIzwe4cGZ4-WOvdbni-324">
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-325" value="" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_iBIzwe4cGZ4-WOvdbni-324">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-290" y="-760" as="sourcePoint" />
             <mxPoint x="-420" y="-660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_iBIzwe4cGZ4-WOvdbni-327" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_iBIzwe4cGZ4-WOvdbni-326">
+        <mxCell id="_iBIzwe4cGZ4-WOvdbni-327" value="" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_iBIzwe4cGZ4-WOvdbni-326">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-290" y="-680" as="sourcePoint" />
             <mxPoint x="-230" y="-660" as="targetPoint" />
