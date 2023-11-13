@@ -153,17 +153,32 @@ public class EncryptionApp {
     public static void main(String[] args) {
         Context context = new Context();
         //AES
-        PatientData patientData = new PatientData("patient data");
+        PatientData patientData = new PatientData("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut "+ 
+        "labore et dolore magna aliqua. Aliquam malesuada bibendum arcu vitae elementum "+ 
+        "curabitur vitae. Semper viverra nam libero justo. Sit amet nulla facilisi morbi tempus iaculis "+ 
+        "urna id. Aliquam ut porttitor leo a diam sollicitudin tempor. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. "+
+        "Sed vulputate mi sit amet mauris commodo quis. Nullam vehicula ipsum a arcu cursus vitae congue. Tortor consequat id porta nibh. Nullam non nisi est sit amet "+ 
+        "facilisis magna. Sodales neque sodales ut etiam sit amet nisl. Elementum curabitur vitae nunc sed velit dignissim sodales ut.\n" + //
+                "\n" + //
+                "");
         String encryptedPatientData = context.encryptData(patientData);
         System.out.println(encryptedPatientData);
 
         //DES
-        PhysicianNotes physicianNotes = new PhysicianNotes("physician notes");
+        PhysicianNotes physicianNotes = new PhysicianNotes("Eget mauris pharetra et ultrices neque ornare aenean euismod. Morbi tristique "+
+        "senectus et netus et malesuada fames. Lectus quam id leo in. Iaculis nunc sed augue lacus viverra vitae congue eu. Vulputate mi sit amet "+
+        "mauris commodo. Est ultricies integer quis auctor. Arcu dui vivamus arcu felis. Augue mauris augue neque gravida in fermentum et "+
+        "sollicitudin ac. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. "+
+        "Dignissim enim sit amet venenatis. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Turpis tincidunt id aliquet risus feugiat in.");
         String encryptedPhysicianNotes = context.encryptData(physicianNotes);
         System.out.println(encryptedPhysicianNotes);
-        
+
          //BlowFish
-        AppointmentSchedule appointmentSchedule = new AppointmentSchedule("appointment schedule");
+        AppointmentSchedule appointmentSchedule = new AppointmentSchedule("Morbi non arcu risus quis varius. Rhoncus mattis rhoncus urna neque viverra "+
+        "justo nec. In nulla posuere sollicitudin aliquam. Nunc consequat interdum varius sit amet mattis. Sed cras ornare arcu dui vivamus arcu felis. "+
+        "Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Mauris nunc congue nisi vitae suscipit tellus mauris a. Turpis in eu mi "+
+        "bibendum neque egestas congue quisque egestas. Libero id faucibus nisl tincidunt eget nullam non nisi est. Sit amet nulla facilisi morbi tempus "+
+        "iaculis urna id. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse.");
         String encryptedAppointmentSchedule = context.encryptData(appointmentSchedule);
         System.out.println(encryptedAppointmentSchedule);
     }
