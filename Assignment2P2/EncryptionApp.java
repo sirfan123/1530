@@ -8,11 +8,10 @@ interface Algorithm {
     String encrypt(String data);
 }
 
-// Concrete Strategy: AES Encryption
 class AESEncryption implements Algorithm {
     @Override
     public String encrypt(String data) {
-        // Implement AES encryption logic
+        //AES encryption logic
          try {
             // Generate AES key
             // ChatGPT
@@ -36,11 +35,10 @@ class AESEncryption implements Algorithm {
     }
 }
 
-// Concrete Strategy: DES Encryption
 class DESEncryption implements Algorithm {
     @Override
     public String encrypt(String data) {
-        // Implement DES encryption logic
+        //DES encryption logic
          try {
             // Generate DES key
             // ChatGPT
@@ -67,7 +65,7 @@ class DESEncryption implements Algorithm {
 class BlowFishEncryption implements Algorithm {
     @Override
     public String encrypt(String data) {
-        // Implement BlowFish encryption logic
+        //BlowFish encryption logic
          try {
             // Generate Blowfish key
             // ChatGPT
@@ -91,7 +89,6 @@ class BlowFishEncryption implements Algorithm {
     }
 }
 
-// Context
 class Context {
     private Algorithm encryptionStrategy;
 
@@ -155,18 +152,17 @@ class AppointmentSchedule {
 public class EncryptionApp {
     public static void main(String[] args) {
         Context context = new Context();
-
-        // Encrypt patient data with AES
+        //AES
         PatientData patientData = new PatientData("patient data");
         String encryptedPatientData = context.encryptData(patientData);
         System.out.println(encryptedPatientData);
 
-        // Encrypt physician notes with DES
+        //DES
         PhysicianNotes physicianNotes = new PhysicianNotes("physician notes");
         String encryptedPhysicianNotes = context.encryptData(physicianNotes);
         System.out.println(encryptedPhysicianNotes);
-
-        // Encrypt appointment schedule with BlowFish
+        
+         //BlowFish
         AppointmentSchedule appointmentSchedule = new AppointmentSchedule("appointment schedule");
         String encryptedAppointmentSchedule = context.encryptData(appointmentSchedule);
         System.out.println(encryptedAppointmentSchedule);
