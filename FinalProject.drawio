@@ -1,25 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T21:41:38.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="4P6OKdIcVNgCW-caPCOx" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T22:21:38.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="zXU7iaiJkA7cZtvEVmfA" version="22.1.5" type="github">
   <diagram name="Page-1" id="uFSGAUwkW49hXAL4wlEe">
     <mxGraphModel dx="-284" dy="2061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-1" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Resident Device : User" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-1" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:UserDevice" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2290" y="60" width="290" height="400" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-3" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;br&gt;: WebBrowser" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2330" y="110" width="230" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-4" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;User" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2377.5" y="180" width="115" height="73" as="geometry" />
-        </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-5" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="I-oZxQt9zTV3CKsvRRn0-4">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-6" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Json : Storage" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2690" y="70" width="320" height="183" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-7" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;br&gt;: Linux" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2770" y="120" width="230" height="123" as="geometry" />
@@ -32,7 +21,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-35" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;gameDisplay" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-35" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;GameDisplay" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2377.5" y="260" width="115" height="73" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-36" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="I-oZxQt9zTV3CKsvRRn0-35">
@@ -40,7 +29,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-37" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;learningPathDisplay" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-37" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;LearningPathDisplay" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2377.5" y="333" width="115" height="73" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-38" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="I-oZxQt9zTV3CKsvRRn0-37">
@@ -62,7 +51,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-43" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:Project Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-43" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:GameServer" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2727.5" y="270" width="300" height="447" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-44" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;br&gt;: Linux" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -106,12 +95,12 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="I-oZxQt9zTV3CKsvRRn0-6" target="I-oZxQt9zTV3CKsvRRn0-52">
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="I-oZxQt9zTV3CKsvRRn0-7" target="I-oZxQt9zTV3CKsvRRn0-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2590" y="367" as="sourcePoint" />
+            <mxPoint x="3010" y="160.35714285714312" as="sourcePoint" />
             <mxPoint x="3080" y="750" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3060" y="160" />
+              <mxPoint x="3060" y="182" />
               <mxPoint x="3070" y="660" />
             </Array>
           </mxGeometry>
