@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T21:38:35.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="-IU1RJNb2Iv731IeBCtR" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T21:40:28.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="EfGubQUXrQMsBDNBrqiC" version="22.1.5" type="github">
   <diagram name="Page-1" id="uFSGAUwkW49hXAL4wlEe">
     <mxGraphModel dx="-284" dy="2061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,12 +74,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-43" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:Project Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2727.5" y="333" width="300" height="447" as="geometry" />
+          <mxGeometry x="2727.5" y="270" width="300" height="447" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-44" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;br&gt;: Linux" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2742.5" y="410.5" width="227.5" height="129.5" as="geometry" />
+          <mxGeometry x="2742.5" y="347.5" width="227.5" height="129.5" as="geometry" />
         </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="I-oZxQt9zTV3CKsvRRn0-1" target="I-oZxQt9zTV3CKsvRRn0-43">
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="I-oZxQt9zTV3CKsvRRn0-3" target="I-oZxQt9zTV3CKsvRRn0-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2590" y="347" as="sourcePoint" />
             <mxPoint x="2700" y="320" as="targetPoint" />
@@ -91,10 +91,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-47" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;br&gt;: Linux" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2742.5" y="570" width="230" height="200" as="geometry" />
+          <mxGeometry x="2742.5" y="507" width="230" height="200" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-48" value=":GameServer" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2792.5" y="460" width="115" height="73" as="geometry" />
+          <mxGeometry x="2792.5" y="397" width="115" height="73" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-49" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="I-oZxQt9zTV3CKsvRRn0-48">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -102,19 +102,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-50" value="REST: API" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2792.5" y="630" width="115" height="60" as="geometry" />
+          <mxGeometry x="2792.5" y="567" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-51" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="I-oZxQt9zTV3CKsvRRn0-50">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I-oZxQt9zTV3CKsvRRn0-52" value=":ApplicationLogic" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2792.5" y="690" width="115" height="60" as="geometry" />
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-52" value=":GameLogic" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2792.5" y="627" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I-oZxQt9zTV3CKsvRRn0-53" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="I-oZxQt9zTV3CKsvRRn0-52">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="I-oZxQt9zTV3CKsvRRn0-6" target="I-oZxQt9zTV3CKsvRRn0-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2590" y="367" as="sourcePoint" />
+            <mxPoint x="3080" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3060" y="160" />
+              <mxPoint x="3070" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-oZxQt9zTV3CKsvRRn0-55" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I-oZxQt9zTV3CKsvRRn0-54">
+          <mxGeometry x="-0.2208" y="-2" relative="1" as="geometry">
+            <mxPoint x="37" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
