@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FileHandlerTest {
 
-    private static final String TEST_FILE_PATH = "testFile.txt";
+    private static final String TEST_FILE_PATH = "test.txt";
     private static final String TEST_CONTENT = "This is a test content.";
 
     // Set up test data
