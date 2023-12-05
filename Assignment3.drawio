@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T03:53:40.371Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="sg0Zq7Z-0bcceqsuQeZm" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T03:53:48.657Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="_-aBNMHsqgk2xwV40Lbo" version="22.1.5" type="github">
   <diagram name="Page-1" id="aLXyriTo7gUPUwi7o5uM">
     <mxGraphModel dx="1224" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="b-DQrlXW467pQjjNaK2d-30" value="Sprint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b-DQrlXW467pQjjNaK2d-2">
           <mxGeometry x="530" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b-DQrlXW467pQjjNaK2d-31" value="Create backlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b-DQrlXW467pQjjNaK2d-2">
+        <mxCell id="b-DQrlXW467pQjjNaK2d-31" value="Initial Meeting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b-DQrlXW467pQjjNaK2d-2">
           <mxGeometry x="60" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b-DQrlXW467pQjjNaK2d-32" value="" style="endArrow=open;html=1;rounded=0;endFill=0;" edge="1" parent="b-DQrlXW467pQjjNaK2d-2" source="b-DQrlXW467pQjjNaK2d-31" target="b-DQrlXW467pQjjNaK2d-3">
